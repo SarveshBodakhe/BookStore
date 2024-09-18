@@ -1,0 +1,57 @@
+.student-form-container{
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:95vh; /* viewport height */
+/* Explanation
+height: This property specifies the height of an element.
+vh: This stands for "viewport height." The viewport is the visible area of the browser window.
+1vh is equal to 1% of the height of the viewport.
+Example
+If the height of the browser window (viewport) is 1000 pixels:
+
+90vh would be 90% of 1000 pixels, which is 900 pixels. */
+    background-color: #457e83;
+}
+
+.student-form{
+    background-color: rgba(255,255,255,0.7);
+    border-radius:10px;
+    padding: 20px;
+    width:300px;
+}
+
+.student-form h2{
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.student-form .form-group{
+    margin-bottom: 15px;
+}
+
+.student-form .form-group label{
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+
+.student-form .form-group input{
+    width:100%;
+    padding:8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.student-form .btn-resister{
+    background-color: #274528;
+    color:#fff;
+    padding:10px;
+    width:100%;
+    border-radius:4px;
+    cursor:pointer;
+    font-weight:bold;
+    margin-top:8px;
+}
